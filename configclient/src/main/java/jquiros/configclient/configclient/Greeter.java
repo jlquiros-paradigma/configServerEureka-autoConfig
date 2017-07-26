@@ -35,7 +35,6 @@ public class Greeter {
 
 
     @RequestMapping(value = "/", produces = "application/json")
-    @RefreshScope
     public List<String> index(){
         List<String> env = Arrays.asList(
                 "message.greeting is: " + greeting,
