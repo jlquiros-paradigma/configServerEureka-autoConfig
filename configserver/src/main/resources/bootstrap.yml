@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          ##uri: https://github.com/rpicloud/guide-cloud-config
+          uri: ${HOME}/IdeaProjects/local_git
+    profiles: #local-git
+        active: native
+    rabbitmq:
+        host: rabbitmq
+        port: 5672
+        username: guest
+        password: guest
+
+
+server:
+  port: 8888
+
+management:
+  security:
+    enabled: false
+
+security:
+  user:
+    name: root
+    password: root1
+
+
+
+#encrypt:
+#  key-store:
+#    location: classpath:/config-server.jks
+#    password: my-s70r3-s3cr3t
+#    alias: config-server-key
+#    secret: my-k34-s3cr3t
