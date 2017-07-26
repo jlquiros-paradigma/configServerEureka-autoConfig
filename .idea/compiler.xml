@@ -11,10 +11,17 @@
         <module name="jquirosconfigServerEureka" />
         <module name="SpringCloudNetflix-EurekaServer" />
       </profile>
+      <profile name="Annotation profile for jquiros.configServerEureka" enabled="true">
+        <sourceOutputDir name="../jqnt2/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../jqnt2/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EurekaServer" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="configclient" target="1.8" />
       <module name="configserver" target="1.8" />
+      <module name="EurekaServer" target="1.8" />
       <module name="jquirosconfigServerEureka" target="1.5" />
       <module name="SpringCloudNetflix-EurekaServer" target="1.8" />
     </bytecodeTargetLevel>
