@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          ##uri: https://github.com/rpicloud/guide-cloud-config
+          #uri: https://github.com/jlquiros-paradigma/configerServer-Eureka-config.git
           uri: ${HOME}/IdeaProjects/local_git
     profiles: #local-git
         active: native
