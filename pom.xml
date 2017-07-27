@@ -6,12 +6,15 @@
 
     <groupId>jquiros.configServerEureka</groupId>
     <artifactId>jquiros.configServerEureka</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
         <module>EurekaServer</module>
         <module>configclient</module>
         <module>configserver</module>
+        <module>ZuulServer</module>
+        <module>configClient2</module>
     </modules>
 
 
