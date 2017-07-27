@@ -11,6 +11,7 @@ public class ConfigclientApplicationTests {
 
 	@Test
 	public void contextLoads() {
+
 	}
 
 }

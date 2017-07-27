@@ -11,10 +11,10 @@
 
     <modules>
         <module>EurekaServer</module>
-        <module>configclient</module>
-        <module>configserver</module>
+        <module>ConfigClient</module>
+        <module>ConfigServer</module>
         <module>ZuulServer</module>
-        <module>configClient2</module>
+        <module>ConfigClient2</module>
     </modules>
 
 

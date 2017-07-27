@@ -1,9 +1,11 @@
 spring:
   application:
-    name: configclient2
+    name: configclient
   cloud:
     config:
       uri: http://localhost:8888
+  profiles:
+    active: development, secondNode
 
 
 
